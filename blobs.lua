@@ -130,3 +130,4 @@ function Blob:deformShape()
 		self.tweenedVertices[i] = math.min(d, (self.tweenedVertices[i]*20 + d)/21)
 	end
 end
+
